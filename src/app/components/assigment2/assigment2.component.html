@@ -1,0 +1,12 @@
+<div class="sc">
+    <div class="imgcontainer">
+        <div class="img">
+            <img id="im" src="{{images[index]}}" alt="not found" >
+            <label id="nam" for="im">{{names[index]}}</label>
+            <button id="p" (click)="privious()" [disabled]="stop2">Previous</button>
+            <button id="n" (click)="next()" [disabled]="stop1">Next</button>
+        </div>
+             
+    </div>
+    </div>
+     <p> index value : {{this.index}}</p>

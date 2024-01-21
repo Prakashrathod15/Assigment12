@@ -1,0 +1,10 @@
+<!-- your-component.component.html -->
+<label for="list">Fruits</label>
+<select id="list" (click)="onFruitSelectionChange($event)">
+  <option value="Apple">Apple</option>
+  <option value="Orange">Orange</option>
+  <option value="PineApple">PineApple</option>
+  <option value="Mango">Mango</option>
+  <option value="Banana">Banana</option>
+</select>
+<p *ngIf="selectedFruit">Selected Fruit: {{ this.selectedFruit }}</p>

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.imgcontainer{
+    width: 40vw;
+    height: 50vh;
+    border: 1px solid;
+    position: absolute;
+    margin-left: 370px;
+    margin-top: 130px;
+    border-radius: 5px;
+    box-shadow: 5px 10px #888888;
+}
+.img{
+    width: 100%;
+    height: 80%;
+    border: 1px solid;
+    border-radius: 5px;
+}
+#im{
+    width: 100%;
+    height: 100%;
+}
+.imgcontainer:hover{
+     width: 42vw;
+}
+#nam{
+    font-size: 20px;
+    margin-left: 240px;
+    display: block;
+    color: blueviolet;
+}
+#n{
+    font-size: 24px;
+    margin-left: 200px;
+    padding: 1px;
+}
+#p{
+    font-size: 24px;
+    margin-left: 100px;
+    padding: 1px;
+}
